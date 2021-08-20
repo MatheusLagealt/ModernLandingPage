@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ded9dd;
+    font-family: "Poppins", sans-serif;
+    color: #6b3c62;
+}
+
+header ul,a {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    text-decoration: none;
+    color: #6b3c62;
+}
+
+header ul li {
+    padding: 50px;
+}
+
+header ul a:hover {
+    color: white;
+}
+
+header ul i {
+    margin-left: 18rem;
+    padding: 20px;
+    font-size: 75px;
+}
+
+header ul i:hover {
+    color: white;
+    transition: all 0.5s;
+}
+
+main .content {
+    position: relative;
+    z-index: -1;
+}
+
+main .content img {
+    position: relative;
+    top: 130px;
+    left: 520px;
+    width: 400px;
+    height: 400px;
+}
+
+main .main-txt {
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+}
+
+main .main-txt h1,p {
+    padding: 25px;
+    width: 600px;
+}
+
+main h1 {
+    font-size: 50px;
+}
+
+main .sign-in {
+    margin-left: 50px;
+}
+
+main .sig-b {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background: #4d2645;
+    border-radius: 22px;
+    font-size: 12px;
+}
+
+main .reg-b {
+    width: 100px;
+    height: 30px;
+    color: #4d2645;
+    background: white;
+    border: 2px solid;
+    border-radius: 22px;
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+main .sig-b:hover {
+    color: #4d2645;
+    background: white;
+    border: 2px solid;
+    border-radius: 22px;
+}
+
+main .reg-b:hover {
+    color: white;
+    background: #4d2645;
+    border: #4d2645 2px solid;
+    border-radius: 22px;
+}
+
+footer .social-media {
+    position: relative;
+    top: 35px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+footer i {
+    margin-left: 20px;
+}
